@@ -10,4 +10,4 @@ try:
     print("List elements are: ")
     display_list(elements)
 except Exception as e:
-    print(f"Enter: {e}")
+    print(f"Error: {e}")
