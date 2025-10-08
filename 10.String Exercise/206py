@@ -1,0 +1,6 @@
+'''Reverse order of words in a given string.'''
+
+str = input("Enter string: ").split()
+
+reverse_order = ' '.join(reversed(str))
+print(f"Reversed word order: {reverse_order}")
